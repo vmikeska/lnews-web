@@ -1,0 +1,40 @@
+@{
+    Layout = "_Layout.cshtml";
+    var Lead = Model.String(BlogKeys.Lead);
+    var Published = Model.Get<DateTime>(BlogKeys.Published);
+
+}
+
+@section Header {
+    @Html.Partial("_IndexHeader")
+}
+
+<div class="post-cont">
+
+    @*<div class="post-head">
+
+        </div>*@
+
+    <div class="post-table">
+        <div class="left">
+            <div class="image-cont">
+                <img src="../../assets/images/titles/@Model.String(BlogKeys.Image)" />
+            </div>
+            <h1>@Model.WithoutSettings.String(BlogKeys.Title)</h1>
+            <div class="meta">
+                @if (Published != default(DateTime))
+                    {
+                <text>Vydáno @(@Published.ToString("dd.MM.yyyy"))<br></text>
+                    }
+            </div>
+        </div>
+        <div class="right">
+            <div class="addthis_inline_share_toolbox"></div>
+        </div>
+    </div>
+
+
+    @RenderBody()
+
+    @Html.Partial("_PostFooter.cshtml")
+</div>

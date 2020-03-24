@@ -1,0 +1,154 @@
+body {
+    
+}
+
+.page-cont {
+    max-width: 900px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+pre {
+    font-size: 14px !important;
+}
+
+.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.site-heading {
+    max-width: 900px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-header {
+    background-color: white !important;    
+    max-width: 900px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid black;
+}
+
+.header-tbl {
+    display: table;
+    width: 100%;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.index-post-image {    
+    
+}
+
+.index-post-image img {    
+    width: 100%;
+}
+
+.header-tbl .l {
+    display: table-cell;    
+    width: 170px;
+}
+
+.header-tbl .r {    
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;    
+}
+
+.header-tbl .r .line1 {
+    color: black;
+    font-size: 30px;
+}
+
+.header-tbl .r .line2 {
+    color: red;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 35px !important;
+}
+
+.addthis_inline_share_toolbox {
+    text-align: right !important;
+}
+
+.layout-table {
+    display: table;
+    width: 100%;
+}
+
+.layout-table .l {
+    display: table-cell;
+    width: 780px;
+    padding-left: 15px;    
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+.layout-table .r {
+    padding-top: 120px; 
+    display: table-cell;
+    vertical-align: top;
+}
+
+.fake-info-cont {
+    background-color: darkgoldenrod;
+    color: black;
+    padding: 16px;
+    border: 2px solid black;
+}
+
+.title-img {
+    width: 150px;
+    float: left;
+}
+
+.logo-title {
+    display: block;
+    width: 150px;
+    height: 150px;    
+    background-color: white;
+    background-image: url('../images/web/logo-full.png');    
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.post-cont {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+@media(min-width: 900px) {
+    .post-table {
+        display: table;
+        width: 100%;
+    }
+
+    .post-table .left {
+        display: table-cell;
+        vertical-align: top;
+        width: 750px;
+    }
+
+
+    .post-table .right {
+        display: table-cell;
+        vertical-align: top;
+        padding-left: 20px;
+    }
+}
+
+
+@media(min-width: 900px) {
+    .at-resp-share-element .at-share-btn {
+        display: block !important;
+        width: 150px !important;
+    }
+}
+
